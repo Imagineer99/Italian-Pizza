@@ -35,3 +35,38 @@ body, h1, h2, h3, h4, h5, h6 {
 .w3-circle {
     border-radius: 40%;
 }
+font-family: "Amatic SC", sans-serif;
+margin: 0;
+padding: 0;
+background-color: #f1f1f1;
+}
+
+/* Parallax styles */
+header {
+position: relative;
+background-attachment: fixed;
+background-position: center;
+background-repeat: no-repeat;
+background-size: cover;
+height: 100vh;
+}
+
+.bgimg {
+background-image: url('italian.png'); /* Replace with your image URL */
+}
+
+.w3-text-white {
+text-shadow: 2px 2px 4px #000000;
+}
+
+.pizza-text {
+text-shadow: 3px 3px 3px #000000;
+}
+
+
+.w3-center {
+
+font-family: auto;
+
+}
+
