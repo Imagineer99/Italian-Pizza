@@ -17,7 +17,7 @@ body, h1, h2, h3, h4, h5, h6 {
 .bgimg {
   background-repeat: no-repeat;
   background-size: cover;
-  background-image: url("italian.png");
+  
   min-height: 90%;
 }
 
@@ -64,7 +64,41 @@ text-shadow: 3px 3px 3px #000000;
 font-family: auto;
 
 }
-
-.w3-circle,.w3-right {
+.w3-circle {
 display: none;
+}
+/* Mobile Styles */
+@media only screen and (max-width: 600px) {
+  .tablink img {
+    width: 100%; /* Make sure the images fill the entire width of their container */
+  }
+}
+/* Greyscale Effect for Images */
+.tablink img {
+  filter: grayscale(30%);
+}
+body, h1, h2, h3, h4, h5, h6, .menu, .w3-bar-item, .w3-tag, .w3-xlarge, .w3-button, .w3-hide-large, .w3-hide-medium, .w3-container.menu {
+  font-family: "Amatic SC", sans-serif !important;
+}
+
+.w3-text-white, .pizza-text {
+  text-shadow: 2px 2px 4px #000000 !important;
+}
+
+.bgimg {
+  background-repeat: no-repeat;
+  background-size: cover;
+  min-height: 90%;
+  background-attachment: fixed !important;
+}
+
+.w3-display-middle.w3-center .pizza-text,
+.w3-container.menu {
+  font-family: "Amatic SC", sans-serif !important;
+}
+
+@media only screen and (max-width: 600px) {
+  .tablink img {
+    width: 100% !important;
+  }
 }
