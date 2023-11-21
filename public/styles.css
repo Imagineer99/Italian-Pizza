@@ -87,7 +87,7 @@ body, h1, h2, h3, h4, h5, h6, .menu, .w3-bar-item, .w3-tag, .w3-xlarge, .w3-butt
 
 .bgimg {
   background-repeat: no-repeat;
-  background-size: cover;
+  background-size: cover !important;
   min-height: 90%;
   background-attachment: fixed !important;
 }
@@ -101,4 +101,12 @@ body, h1, h2, h3, h4, h5, h6, .menu, .w3-bar-item, .w3-tag, .w3-xlarge, .w3-butt
   .tablink img {
     width: 100% !important;
   }
+}
+.w3-text-grey, .w3-hover-text-grey:hover, .w3-text-gray, .w3-hover-text-gray:hover {
+  font-size: x-large !important;
+  color: #635757!important;
+}
+
+#myMap {
+max-height: 70vw !important; /* Maintain aspect ratio */
 }
