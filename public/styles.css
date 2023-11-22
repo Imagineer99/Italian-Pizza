@@ -113,7 +113,7 @@ max-height: 70vw !important; /* Maintain aspect ratio */
 /* Styles for general screens */
 
 /* Media query for very small screens (less than half the width of typical mobile devices) */
-@media (max-width: 300px) {
+@media (max-width: 600px) {
   /* Styles for very small screens */
 
   body {
