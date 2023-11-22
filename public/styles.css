@@ -141,5 +141,8 @@ max-height: 70vw !important; /* Maintain aspect ratio */
   margin-bottom: 50px;
     /* Add more styles as needed */
   }
+  .w3-text-white, .pizza-text {
   
-} 
+  transform: translate(40px) !important; /* Move the element 20 pixels down and 20 pixels to the right */
+}
+}
