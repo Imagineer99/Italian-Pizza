@@ -124,7 +124,7 @@ max-height: 70vw !important; /* Maintain aspect ratio */
   }
   .w3-display-middle, .w3-center {
 
-    bottom: 1px !important;
+    margin: 10px !important;
   }
   /* Additional styles for very small screens */
 }
