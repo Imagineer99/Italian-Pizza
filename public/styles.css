@@ -47,7 +47,7 @@ height: 80vh;
 }
 
 .bgimg {
-background-image: url('italian.png'); /* Replace with your image URL */
+background-image: url('italian.png') !important; /* Replace with your image URL */
 }
 
 .w3-text-white {
@@ -110,3 +110,18 @@ body, h1, h2, h3, h4, h5, h6, .menu, .w3-bar-item, .w3-tag, .w3-xlarge, .w3-butt
 #myMap {
 max-height: 70vw !important; /* Maintain aspect ratio */
 }
+/* Styles for general screens */
+
+/* Media query for very small screens (less than half the width of typical mobile devices) */
+@media (max-width: 300px) {
+  /* Styles for very small screens */
+
+  body {
+    font-size: 40px; /* Adjust font size for very small screens */
+  }
+  .w3-display-bottomleft, .w3-padding {
+    display: none !important;
+  }
+  /* Additional styles for very small screens */
+}
+
