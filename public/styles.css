@@ -130,11 +130,16 @@ max-height: 70vw !important; /* Maintain aspect ratio */
 
     margin: 10px !important;
   }
-  .w3-text-white, .w3-hide-large, .w3-hide-medium {
+  .w3-text-white {
     font-size: 73px !important;
-  }
     
+    margin-top: 50px !important;
   }
-  /* Additional styles for very small screens */
 
-
+  #myNavbar.w3-bar {
+    /* Your styles here */
+  margin-bottom: 50px;
+    /* Add more styles as needed */
+  }
+  
+} 
