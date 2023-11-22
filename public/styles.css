@@ -122,10 +122,15 @@ max-height: 70vw !important; /* Maintain aspect ratio */
   .w3-display-bottomleft, .w3-padding {
     display: none !important;
   }
-  
+  b {
+    margin-top: 1inch;
+}
+
   .w3-display-middle, .w3-center {
 
     margin: 10px !important;
+
+
   }
   /* Additional styles for very small screens */
 }
