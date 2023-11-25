@@ -143,9 +143,10 @@ max-height: 70vw !important; /* Maintain aspect ratio */
   }
   .pizza-text {
     display: none !important;
+    
   .w3-display-middle {
-  margin-left: 2px!important;
+    margin-left: 2px!important;
 }
 
 }
-}
+
