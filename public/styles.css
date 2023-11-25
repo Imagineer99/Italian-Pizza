@@ -145,7 +145,7 @@ max-height: 70vw !important; /* Maintain aspect ratio */
     display: none !important;
     
   .w3-display-middle {
-    margin-left: 2px!important;
+    margin-left: 20px!important;
 }
 
 }
